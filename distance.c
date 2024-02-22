@@ -16,3 +16,11 @@ Output
 Print the necessary time followed by the message "minutos" that means minutes in Portuguese.
 */
 
+#include<stdio.h>
+int main(){
+    int s, time=2, duration;
+    scanf("%d", &s);
+    duration = s*time;
+    printf("%d minutos\n", duration);
+    return 0;
+}
